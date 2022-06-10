@@ -1,0 +1,35 @@
+
+body {
+    background: black;
+    border: solid 2px antiquewhite;
+    color: #FFFFFF;
+    ;
+    }
+p span {
+    color: #FFB742;
+    text-decoration: underline  #FFB742;
+    
+
+}
+
+header {
+    border: solid 2px  #FFFFFF;
+    display: flex;
+}
+nav {
+    border: solid 2px  #FFFFFF;
+}
+
+section {
+    border: solid 2px  #FFFFFF;
+}
+
+footer {
+    border: solid 2px  #FFFFFF;
+    display: flex;
+}
+
+div{
+    border: solid 2px  #FFFFFF;
+}
+
