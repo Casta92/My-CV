@@ -1,35 +1,192 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&family=Work+Sans:wght@500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 8px;
+}
 body {
-    background: black;
-    border: solid 2px antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    background: #212529;
+    /* border: solid 1px rgb(223, 155, 65); */
     color: #FFFFFF;
-    ;
-    }
-p span {
-    color: #FFB742;
-    text-decoration: underline  #FFB742;
     
-
+    }
+button{
+    background-color: #FFB742;
+    border-radius: 50px;
+    height: 54px;
+    width: 121px;
+    padding: 5px;
+    border-style: none;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 12px;
 }
-
-header {
-    border: solid 2px  #FFFFFF;
+#nombreAmarillo {
+    color: #FFB742;
+    text-decoration: underline;
+    display: inline;
+    }
+ul {
     display: flex;
+    list-style: none;
+    justify-content: space-between;
+    }
+header {
+    font-family: 'Poppins', sans-serif;
+    /* border: solid 1px  #FFFFFF; */
+    display: flex;
+    justify-content: space-between;
 }
-nav {
-    border: solid 2px  #FFFFFF;
-}
+
+/* Contenido*/
 
 section {
-    border: solid 2px  #FFFFFF;
+    font-family: 'Inter', sans-serif;
+   /* background:  #212529; */
+    /* border: solid 1px  #FFFFFF; */
 }
+section span {
+    display: flex;
+    border-radius: 24px;
+}
+
+.parrafo1{
+    font-weight: 700;
+    font-size: 32px;
+  }
+.tituloprincipal {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;    
+}
+.parrafo3 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+}
+.nombre {
+    text-align: center;
+}
+nav {
+   /* border: solid 1px  #FFFFFF; */
+    }
+.cajapp{
+    display: flex;
+    justify-content: space-between;
+   }
+.cajagris {
+    background: #292B2E;
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    }
+.cajagris img:nth-child(1) {
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+    }
+.vector {
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+.cajatexto {
+    display: block;
+    text-align: center;    
+}
+.cajatexto p:nth-child(1){
+    color: #FFB742;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 10px;
+    }
+.cajatexto p:nth-child(2){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* Footer*/
 
 footer {
-    border: solid 2px  #FFFFFF;
+    /* border: solid 1px  #FFFFFF;*/
     display: flex;
+    justify-content: space-between;
 }
-
+a:hover {
+    color: #FFB742;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 div{
-    border: solid 2px  #FFFFFF;
+  /*  border: solid 1px  #FFFFFF; */
 }
-
+footer div li {
+    display: block;
+    list-style: none;
+    justify-content: space-between;
+}
+.caja1 p:nth-child(1) {
+    font-style: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFB742;
+}
+.caja1 p:nth-child(2) {
+    font-style: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+}
+.caja2 p{
+    font-style: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+}
+.caja2 li{
+    font-style: 'Work Sans';
+    font-weight: 500;
+    font-size: 16px;
+    display: grid;
+   }
+.caja2 li a{
+    color: #7B7B7B;
+    line-height: 16px;
+   }
+.caja2 li a:hover{
+    color: #FFB742;
+    }
+.caja3 p:nth-child(1) {
+    font-style: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+    }
+.caja3 p:nth-child(2) {
+    font-style: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #7B7B7B;
+    }
+.enviarcorreo{
+    position: absolute;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    background-color: #FFB742;
+    margin-top: -10px;
+    }
+.enviarcorreo img{
+    position: absolute;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+.escribircorreo{
+    border-radius: 49px;
+    color: #7B7B7B;
+    background-color: #0b0d0f;
+    border-style: none;
+}
