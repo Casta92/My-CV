@@ -37,7 +37,7 @@ ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    }
+    } 
 header {
     font-family: 'Poppins', sans-serif;
     /* border: solid 1px  #FFFFFF; */
@@ -293,6 +293,8 @@ footer div li {
     line-height: 34px;
     width: 117px;
     height: 48px;
+    padding: 24px;
+    margin-left: -16px;
 }
 .logoempresa{
     position: absolute;
@@ -318,14 +320,15 @@ footer div li {
 
 .sectioncontact{
     padding: 12px;
-    height: 600px;
+    height: 1000px;
 }
 .contactme{
     color: #FFB742;
     font-family: 'Poppins';
     font-size: 20px;
-    font-weight: 600;
-    width: 132px;
+    font-weight: 1200;
+    width: 150px;
+    text-align: center;
     height: 30px;
     background-color: #292B2E;
     border-radius: 20px;
@@ -334,11 +337,12 @@ footer div li {
 .cajacontact{
     display: flex;
     justify-content: center;
-}
-.cajacontact img{
-    height: 300px;
-    width: auto;
-    margin-top: 80px;
+    align-content: space-between;
+    height: 350px;
+    padding: 10px;
+    
+    /* background-color: aquamarine; */
+    
 }
 .contact-send{
     background-color: #FFB742;
@@ -388,3 +392,43 @@ footer div li {
     height: 48px;
     line-height: 300px;
  }
+.principalJokes{
+    height: 450px;
+}
+.jokesbox {
+    
+    background-color: #FFFFFF;
+    color: #0b0d0f;
+    width: 300px;
+    align-items: center;
+    height: 200px;
+    border-radius: 8px;   
+    margin-left: 550px;
+}
+.textjokes{
+    font-size: 15px;
+}
+.oneMore-send{
+    background-color: #FFB742;
+    border-radius: 50px;
+    padding: 15px;
+    border-style: none;
+    font-style: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    color: #0b0d0f;
+    margin-left: 650px;
+    }
+.infocontacto{
+    display: flex;
+    
+    border-radius: 12px;
+    height: 30px;
+    width: 300px;
+    color:#FFFFFF;
+    margin-left: 250px;
+    background-color: #292B2E;
+    justify-content: space-between;
+}
+
