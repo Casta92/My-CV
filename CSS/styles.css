@@ -413,6 +413,7 @@ footer div li {
     background-color: #FFB742;
     border-radius: 50px;
     padding: 15px;
+    cursor: pointer;
     width: 100px;
     border-style: none;
     font-style: 'Poppins';
