@@ -400,18 +400,20 @@ footer div li {
     background-color: #FFFFFF;
     color: #0b0d0f;
     width: 300px;
+    height: auto;
     align-items: center;
     height: 200px;
     border-radius: 8px;   
     margin-left: 550px;
 }
 .textjokes{
-    font-size: 15px;
+    font-size: 12px;
 }
 .oneMore-send{
     background-color: #FFB742;
     border-radius: 50px;
     padding: 15px;
+    width: 100px;
     border-style: none;
     font-style: 'Poppins';
     font-size: 18px;
@@ -419,6 +421,7 @@ footer div li {
     justify-content: center;
     color: #0b0d0f;
     margin-left: 650px;
+    margin-top: 10px ;
     }
 .infocontacto{
     display: flex;
