@@ -3,10 +3,10 @@
 
 let chisteParteI = document.getElementById("texto-inicial");
 let chisteParteII = document.getElementById("texto-respuesta");
-let boton = document.getElementById("Uno-mas");
+let botonChiste = document.getElementById("Uno-mas");
 
 
-boton.addEventListener("click", ()=>chistesAleatorios())
+botonChiste.addEventListener("click", ()=>chistesAleatorios())
 
 async function chistesAleatorios() {
 
@@ -28,3 +28,4 @@ async function chistesAleatorios() {
     document.getElementById("texto-respuesta").textContent = respuesta;
     console.log(chiste, respuesta);
 }
+

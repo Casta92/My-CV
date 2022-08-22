@@ -4,6 +4,39 @@
     padding: 8px;
     box-sizing: content-box;
 }
+/*Light Mode*/ 
+@media (prefers-color-scheme: light) {
+    body header{
+    background-color: #FFFFFF;
+    color: #212529;
+    }
+    body section{
+    background-color: #FFFFFF;
+    color: #212529;
+    }
+    body section .experience .cajaexperience{
+        background-color:#212529;
+        color:#FFFFFF;
+    }
+    body header nav a{
+        color: #212529;
+    }
+    body header nav a:hover{
+        color:#FFB742;
+    }
+    body section .jokesbox{
+        background-color:#212529;
+        color:#FFFFFF;
+    }
+    body div div .cajatexto p:nth-child(2){
+    color:#FFFFFF;
+    }
+    body.dark-mode{
+    background-color: red;
+    }
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #212529;
@@ -44,6 +77,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#change-mode{
+cursor: pointer;
+
 }
 
 /* Contenido*/
