@@ -1,2 +1,2 @@
 # My-CV
-Este es mi CV
+This is my CV
