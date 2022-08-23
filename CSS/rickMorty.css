@@ -1,3 +1,65 @@
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #72C7D0;
+}
+header p {
+    color: #233160;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+.botonAbout{
+    background-color: #D7F2F2;
+    width: 132px;
+    height: 27px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+
+}
+.botonAbout a{
+    color: #233160;
+    font-weight: 700;
+    font-size: 16px;
+}
+/*SECTION*/
+article{
+    display: flex;
+}
+
+/*BARRA DE NAVEGACION*/
+nav{
+    background-color: #96C96A;
+    width: 1440px;
+    height: 71px;
+    padding: 32px;
+
+    
+}
+nav a{
+    color:  #D5FAB6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+
+section{
+    background-color:  #72C7D0;
+    
+}
+
+
+
+
+
+
 /* Footer*/
 
 footer {
@@ -12,18 +74,10 @@ footer {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    
-
-}
-a:hover {
-    color: #FFB742;
 }
 a {
     color: #FFFFFF;
     text-decoration: none;
-}
-div{
-  /*  border: solid 1px  #FFFFFF; */
 }
 footer div li {
     display: block;
@@ -47,53 +101,35 @@ footer div li {
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
-
 }
 .caja2 li{
     font-style: 'Work Sans';
     font-weight: 500;
     font-size: 16px;
     display: grid;
-   }
+}
 .caja2 li a{
     color: #D5FAB6;
     line-height: 16px;
-   }
+}
 .caja2 li a:hover{
     color: #FFFFFF;
-    }
+}
 .caja3 p:nth-child(1) {
     font-style: 'Work Sans';
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
-
-    }
+}
 .caja3 p:nth-child(2) {
     font-style: 'Work Sans';
     font-weight: 600;
     font-size: 16px;
-    color: #7B7B7B;
-    }
-.enviarcorreo{
-    position: absolute;
-    border-radius: 32px;
-    height: 36px;
-    width: 36px;
-    background-color: #FFB742;
-    margin-top: 8px;
-    margin-left: 16px;
-    }
-.enviarcorreo img{
-    position: absolute;
-    margin-top: 6px;
-    margin-left: 4px;
+    color: #D5FAB6;
 }
-.escribircorreo{
-    border-radius: 49px;
-    height: 20px;
-    color: #b3adad;
-    background-color: #bdc0c4;
-    border-style: none;
-    margin-top: 16px;
+.visitamiLinkedin a {
+    color: #D5FAB6;
+}
+.visitamiLinkedin a:hover {
+    color: #FFFFFF;
 }

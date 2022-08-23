@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
     <title>Experience</title>
 </head>
 <body class="">
@@ -18,35 +20,103 @@
         </nav>
         <button id="change-mode"><a> Change Mode </a></button>
     </header>
-
-    <section>
-        <p class="whoim1">EXPERIENCE</p>
-        <p class="practicemakes">Practice Makes Better</p>
+    <div class="divTitulo">
+    <p class="whoim1">EXPERIENCE</p>
+    <p class="practicemakes">Practice Makes Better</p>
+    </div>
+    <section class="sectionexperience">
         
-        <div class="experience">
-            <div class="cajaexperience">
-                <p class="titulocargo">Sr Engineer</p>
-                
-                <p class="tituloempresa">CNV Construcciones</p>
-                
-                <img class="logoempresa" src="./img/CNV logo.png" alt="">
-                <p class="descripcioncargo">Responsible for managing and coordinating the activities of finishing construction projects in the clinical, education and office sector, from the achievement of work quantities, opening of tenders, contracting, generation of work programming, cost control and supervision of activities in execution.</p>
+        <!-- Swiper -->
+        <div class="container">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-container mySwiper">
+             
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/Womenwhocode.jpg"
+                        alt="">
+                    <div class="card-description">
+                        <div class="card-title">
+                            <h4>Radom Jokes</h4>
+                            <h4>
+                                <a href="https://www.instagram.com/wwcodemedellin/">Women Who Code Medellin</a>
+                            </h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Hello World! I've completed a 32 hour training designed by Whomen Who Code Medellin and this website is the result of each lesson. I used HTML5, CSS3 and JS and I also called an API so you can have a laugh. Take a look at my contact page <a href="./Contact.html">here</a> to enjoy it!</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/Womenwhocode.jpg"
+                        alt="">
+                    <div class="card-description">
+                        <div class="card-title">
+                            <h4>Rick & Morty</h4>
+                            <h4>
+                                <a href="https://www.instagram.com/wwcodemedellin/">WWC Medellin</a>- 1st Project
+                            </h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Once my CV was ready, I was able to go a little bit further. I started a mus have project for each wannabe developer, a Rick & Morty Website. I received a Figma Designed and created this project from scratch, using HTML5, CSS3, JS and, of course the Rick and Morty API. <a href="./rickMorty.html">Let´s go!</a></p>
+                        </div>
+                       
+                    </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <img src="./img/CNV logo.png"
+                            alt="">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Civil Engineer</h4>
+                                <h4>
+                                    <a href="https://cnv.co/">CNV Construcciones</a>
+                                </h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Responsible for managing and coordinating the activities of finishing construction projects in the clinical, education and office sector, from the achievement of work quantities, opening of tenders, contracting, generation of work programming, cost control and supervision of activities in execution.</p>
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+                    <div class="swiper-slide">
+                        <img src=".//img/acierto-350x322.jpg"
+                            alt="">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Civil Engineer</h4>
+                                <h4>
+                                    Acierto Inmobiliario
+                                </h4>
+                            </div>
+                            <div class="card-text">
+                                <p>In charge of developing the control of the finishing activities related to housing projects of the Vintage and Azimut projects in Bogotá. Management and control of the scope, times and costs of the project. Supervision of activities and finishes, programming control, payment control and project costs and attention to customer requirements.</p>
+                            </div>
+                           
+                    </div>
+                    </div>
+                   
+                    <div class="swiper-slide">
+                        <img src="./img/Acueducto de bogota.png"
+                        alt="">
+                    <div class="card-description">
+                        <div class="card-title">
+                            <h4>Project Manager</h4>
+                            <h4>
+                                EAAB Bogota
+                            </h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Responsible for developing the management of construction projects for the Bogotá aqueduct, specifically projects to reduce pollution of the main water basins that cross the city. Development of programming of pollution prevention and mitigation works and supervision of the correct execution.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div class="cajaexperience">
-                <p class="titulocargo">Sr Engineer</p>
-                
-                <p class="tituloempresa">AIRA- Acierto Inmobiliario</p>
-                
-                <img class="logoempresa" src=".//img/acierto-350x322.jpg" alt="">
-                <p class="descripcioncargo">In charge of developing the control of the finishing activities related to housing projects of the Vintage and Azimut projects in Bogotá. Management and control of the scope, times and costs of the project. Supervision of activities and finishes, programming control, payment control and project costs and attention to customer requirements.</p>
-            </div>
-            <div class="cajaexperience">
-                <p class="titulocargo">Construction Manager</p>
-                
-                <p class="tituloempresa">Acueducto de Bogota</p>
-                
-                <img class="logoempresa" src="./img/Acueducto de bogota.png" alt="">
-                <p class="descripcioncargo">Responsible for developing the management of construction projects for the Bogotá aqueduct, specifically projects to reduce pollution of the main water basins that cross the city. Development of programming of pollution prevention and mitigation works and supervision of the correct execution.</p>
             </div>
         </div>
     </section>
@@ -82,6 +152,10 @@
             <a class="enviarcorreo" href="/index.html"><img src="./img/Logo_enviar.png" alt=""></a>
         </div>
     </footer>
-    <script src="./JS/changeMode.js"></script>
+         <!-- Swiper JS -->
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="./JS/changeMode.js"></script>
+      <script src="./JS/carrusel.js"></script>
 </body>
 </html>
