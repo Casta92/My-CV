@@ -1,14 +1,27 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: #d7d7dacb;
+    width: 1500px;
+
+}
+
 /*HEADER*/
 header{
     display: flex;
     justify-content: space-around;
     background-color: #72C7D0;
+    border: solid red;  
+    width: 100%;  
+
 }
 header p {
     color: #233160;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
+    border: solid red;     
+
 
 }
 .botonAbout{
@@ -18,40 +31,89 @@ header p {
     border-radius: 8px;
     border: none;
     margin-top: 12px;
+    border: solid red;     
+
 
 }
 .botonAbout a{
     color: #233160;
     font-weight: 700;
     font-size: 16px;
+    border: solid red;     
+
 }
 /*SECTION*/
 article{
     display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: solid red;     
+
 }
 
-/*BARRA DE NAVEGACION*/
-nav{
-    background-color: #96C96A;
-    width: 1440px;
-    height: 71px;
-    padding: 32px;
+.choose{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    height: 127px;
+    width: 572px;
+    left: 510px;
+    top: 608px;
+    border-radius: nullpx;
+    border: solid red;  
+    margin-left: auto;
+    margin-right: auto;   
 
+
+
+
+}
+/*BARRA DE NAVEGACION*/
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid red;  
+    background-color: #96C96A;
+    width: 1500px;
+
+
+}
+nav{
+    width: 700px;
+    height: 50px;
+    padding: 32px;
+    align-content: center;  
+    border: solid red;  
+    margin-left: 400px;
     
+      
+   
 }
 nav a{
     color:  #D5FAB6;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
+    margin: 24px;
+    border: solid red;     
+
     
 }
 nav a:hover{
     color: #FFFFFF;
+    border: solid red;     
+
 }
 
 section{
     background-color:  #72C7D0;
+    width: 100%;
+    border: solid red;     
+
     
 }
 
@@ -62,55 +124,72 @@ section{
 
 /* Footer*/
 
-footer {
+.footer {
     /* border: solid 1px  #FFFFFF;*/
     display: flex;
     background-color: #96C96A;
     justify-content: space-between;
     padding: 32px;
-
     height: 200px;
-    width: 1440px;
+    width: 1435px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
+    border: solid red;   
+    margin: 0;  
+    margin-left: auto;
+    margin-right: auto;
 }
 a {
     color: #FFFFFF;
     text-decoration: none;
+    border: solid red;     
+
 }
 footer div li {
     display: block;
     list-style: none;
     justify-content: space-between;
+    border: solid red;     
+
 }
 .caja1 p:nth-child(1) {
     font-style: 'Poppins';
     font-weight: 700;
     font-size: 32px;
     color: #FFFFFF;
+    border: solid red;     
+
 }
 .caja1 p:nth-child(2) {
     font-style: 'Work Sans';
     font-weight: 600;
     font-size: 16px;
     color: #D5FAB6;
+    border: solid red;     
+
 }
 .caja2 p{
     font-style: 'Work Sans';
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
+    border: solid red;     
+
 }
 .caja2 li{
     font-style: 'Work Sans';
     font-weight: 500;
     font-size: 16px;
     display: grid;
+    border: solid red;     
+
 }
 .caja2 li a{
     color: #D5FAB6;
     line-height: 16px;
+    border: solid red;     
+
 }
 .caja2 li a:hover{
     color: #FFFFFF;
@@ -120,16 +199,27 @@ footer div li {
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
+    border: solid red;     
+
 }
 .caja3 p:nth-child(2) {
     font-style: 'Work Sans';
     font-weight: 600;
     font-size: 16px;
     color: #D5FAB6;
+    border: solid red;     
+
 }
 .visitamiLinkedin a {
     color: #D5FAB6;
+    border: solid red;     
+
 }
 .visitamiLinkedin a:hover {
     color: #FFFFFF;
+    border: solid red;     
+}
+.caja3 p:nth-child(1){
+    margin-left: auto;
+    margin-right: auto;
 }
