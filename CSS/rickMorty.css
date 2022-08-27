@@ -60,7 +60,7 @@ article{
     text-align: center;
     color: #FFFFFF;
     height: 127px;
-    width: 572px;
+    width: 287px;
     left: 510px;
     top: 608px;
     border-radius: nullpx;
@@ -139,6 +139,7 @@ section{
     display: initial;
     background: #D7F2F2;
     border-radius: 20px;
+    margin: 4px;
    
 }
 .nombrePersonaje{
@@ -163,6 +164,7 @@ section{
     background: #96C96A;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
     
 }
 .status {

@@ -4,46 +4,93 @@
     padding: 8px;
     box-sizing: content-box;
 }
-/*Light Mode*/ 
-@media (prefers-color-scheme: light) {
-    body header{
-    background-color: #FFFFFF;
-    color: #212529;
+/* Light Mode */
+ /* @media (prefers-color-scheme: light) { */
+    .light-mode header{
+        background-color: #FFFFFF; 
+        color: #212529  ;
     }
-    body section{
-    background-color: #FFFFFF;
-    color: #212529;
+    .light-mode section{
+        background-color: #FFFFFF ;
+        color: #212529 ;
     }
-    body .divTitulo{
-        background-color: #FFFFFF;
-        color: #212529;
+    .light-mode .divTitulo{
+        background-color: #FFFFFF ;
+        color: #212529 ;
+    }
+    .light-mode section .container .swiper-slide {
+        background-color:#212529 ;
+    }
+    .light-mode section .container .swiper-slide p{
+        color:#FFFFFF ;
+    }
+    .light-mode section .experience .cajaexperience{
+        background-color:#212529 ;
+        color:#FFFFFF;
+    }
+    .light-mode header nav a{
+        color: #212529 ;
+    }
+    .light-mode header nav a:hover{
+        color:#FFB742 ;
+    }
+    .light-mode section .jokesbox{
+        background-color:#212529;
+        color:#FFFFFF ;
+    }
+    .light-mode div div .cajatexto p:nth-child(2){
+        color:#FFFFFF ;
+    } 
+    .light-mode .card-text p{
+        color:#292B2E ;
+    }
+    
+/* } */
+
+
+/* Dark Mode  */
+/* @media (prefers-color-scheme: dark) { */
+    .dark-mode header{
+        color: #FFFFFF !important ;
+        background-color: #212529 !important;
+    }
+    .dark-mode section{
+        color: #FFFFFF !important;
+        background-color: #212529 !important;
+    }
+    .dark-mode .divTitulo{
+        color: #FFFFFF !important;
+        background-color: #212529 !important;
         
     }
-    body section .container .swiper-slide {
-        background:#212529;
-        color:#FFFFFF;
+    .dark-mode section .container .swiper-slide {
+        color: #FFFFFF !important;
+        background-color: #212529 !important;
       }
-    body section .experience .cajaexperience{
-        background-color:#212529;
-        color:#FFFFFF;
+    .dark-mode section .experience .cajaexperience{
+        color:#212529 !important;
+        background-color:#FFFFFF !important;
     }
-    body header nav a{
-        color: #212529;
+    .dark-mode header nav a{
+        color:#FFFFFF !important;
     }
-    body header nav a:hover{
-        color:#FFB742;
+    .dark-mode header nav a:hover{
+        color:#FFB742 !important;
     }
-    body section .jokesbox{
-        background-color:#212529;
-        color:#FFFFFF;
+    .dark-mode section .jokesbox{
+        color:#212529 !important;
     }
-    body div div .cajatexto p:nth-child(2){
-    color:#FFFFFF;
+    .dark-mode div div .cajatexto p:nth-child(2){
+        color:#212529 !important;
     } 
-    body.dark-mode{
-        background-color: red;
-        }
-}
+    .dark-mode .card-text p{
+        color: #FFFFFF !important;
+    }
+    
+/* } */
+
+
+
 
 
 body {
@@ -337,8 +384,9 @@ footer div li {
     position: relative;
     text-align: center;
     font-size: 18px;
-    height: auto;
-    /* border: solid rgb(255, 4, 0); */
+    height: 800px;
+    background-color: #292B2E;
+    /* border: solid rgb(193, 134, 133); */
     border-radius: 15px;
     text-align: start;
     box-shadow: 0px 4px 4px rgba(207, 59, 59, 0.25);
@@ -354,12 +402,15 @@ footer div li {
   
   }
   .swiper-button-next{
-      right: 26px !important;
-      color: #FFB742 !important;
+    margin-right: 150px;  
+    color: #FFB742 !important;
   }
   .swiper-button-prev{
       left: 26px !important;
       color: #FFB742 !important;
+  }
+  .card-title h4{
+    color: #FFFFFF;
   }
   .card-title h4:nth-child(2) a{
      color:  #FFB742;
@@ -376,6 +427,14 @@ footer div li {
   .card-text p a:hover {
     color: #f9a318;
 }
+body .card-text p{
+    color: #FFFFFF;
+}
+.swiper-slide{
+    background-color: #292B2E;
+}
+
+
 
 
 
