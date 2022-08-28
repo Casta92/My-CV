@@ -6,6 +6,9 @@
 }
 /* Light Mode */
  /* @media (prefers-color-scheme: light) { */
+    .light-mode {
+        background-color: #FFFFFF;
+    }
     .light-mode header{
         background-color: #FFFFFF; 
         color: #212529  ;
@@ -19,13 +22,13 @@
         color: #212529 ;
     }
     .light-mode section .container .swiper-slide {
-        background-color:#212529 ;
+        background-color:#cecece ;
     }
     .light-mode section .container .swiper-slide p{
         color:#FFFFFF ;
     }
     .light-mode section .experience .cajaexperience{
-        background-color:#212529 ;
+        background-color:#cecece ;
         color:#FFFFFF;
     }
     .light-mode header nav a{
@@ -35,7 +38,7 @@
         color:#FFB742 ;
     }
     .light-mode section .jokesbox{
-        background-color:#212529;
+        background-color:#cecece;
         color:#FFFFFF ;
     }
     .light-mode div div .cajatexto p:nth-child(2){
@@ -43,6 +46,15 @@
     } 
     .light-mode .card-text p{
         color:#292B2E ;
+    }
+    .light-mode section .container .caja-invisible{
+    background-color: #FFFFFF;
+    }
+    .light-mode footer {
+        background-color: #cecece;
+    }
+    .light-mode footer .caja3 input{
+        background-color: #FFB742;
     }
     
 /* } */
@@ -65,7 +77,7 @@
     }
     .dark-mode section .container .swiper-slide {
         color: #FFFFFF !important;
-        background-color: #212529 !important;
+        background-color: #292B2E !important;
       }
     .dark-mode section .experience .cajaexperience{
         color:#212529 !important;
@@ -81,11 +93,14 @@
         color:#212529 !important;
     }
     .dark-mode div div .cajatexto p:nth-child(2){
-        color:#212529 !important;
+        color:FFFFFF !important;
     } 
     .dark-mode .card-text p{
         color: #FFFFFF !important;
     }
+    .dark-mode section .container .caja-invisible{
+        border: #FFB742;
+        }
     
 /* } */
 
@@ -294,7 +309,6 @@ footer div li {
 }
 .escribircorreo{
     border-radius: 49px;
-    color: #7B7B7B;
     height: 24px;
     background-color: #0b0d0f;
     border-style: none;
@@ -389,7 +403,7 @@ footer div li {
     /* border: solid rgb(193, 134, 133); */
     border-radius: 15px;
     text-align: start;
-    box-shadow: 0px 4px 4px rgba(207, 59, 59, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(207, 59, 59, 0.25); */
   }
   .container .swiper-slide img{
     margin-left: 20px;
