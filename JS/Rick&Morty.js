@@ -54,20 +54,18 @@ function selectAllCharacthers(){
 function selectFemales(){
     console.log("Females")
 }
-selectFemales()
 
 function selectMales(){
     // alert("Seleccionaste categoria females");
     console.log("Males")
 }
-selectMales()
+
 function selectAlive(){
     // alert("Seleccionaste categoria females");
     console.log("Aive")
 }
-selectAlive()
+
 function selectDead(){
     // alert("Seleccionaste categoria females");
     console.log("Dead")
 }
-selectDead()
