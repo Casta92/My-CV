@@ -56,7 +56,29 @@
     .light-mode footer .caja3 input{
         background-color: #FFB742;
     }
-    
+    .light-mode section .cajagris {
+        background: #cecece;
+    }
+    .light-mode section .cajagris .cajatexto p:nth-child(2){
+            color: #292B2E;
+            
+    }
+    .light-mode section .whoim{
+        background-color: #cecece;
+    }
+    .light-mode .divTitulo .whoim1{
+        background-color: #cecece;
+    }
+    .light-mode .principalJokes .contactme{
+        background-color: #cecece;
+    }
+    .light-mode .sectioncontact .contactme{
+        background-color: #cecece;
+    }
+    .light-mode .sectioncontact .datoscontacto .infocontacto{
+        background-color: #cecece;
+        border: #212529;
+    }
 /* } */
 
 
